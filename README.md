@@ -1,4 +1,4 @@
-Markup Editor
+jQuery-Watermark
 =============
 
 An extra-small ( <1k ) and easy watermark creator for inputs.
