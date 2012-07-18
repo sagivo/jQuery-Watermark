@@ -10,7 +10,7 @@ install it in 6 easy steps:
 - include jQuery script:
 
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-- include jQuert-Watermark script:	 
+- download jquery-watermark.min.js script and include it in your page:	 
 
       <script src="jquery-watermark.min.js" type="text/javascript"></script>
 - define your params (if you want):
