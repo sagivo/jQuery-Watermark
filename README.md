@@ -7,6 +7,7 @@ Installation
 --------------
 
 Go to the fridge and drink some beer. 
+
 Include jQuery script:
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
