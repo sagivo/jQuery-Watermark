@@ -9,25 +9,25 @@ install it in 6 easy steps:
 - go to the fridge and drink some beer. 
 - include jQuery script:
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 
 - download jquery-watermark.min.js script and include it in your page:	 
 
-      <script src="jquery-watermark.min.js" type="text/javascript"></script>
+	<script src="jquery-watermark.min.js" type="text/javascript"></script>
 
 - define your params (if you want):
 
-      var params = { activeCss: { color: 'Black' }, waterCss: {color: 'Gray'}};
+	var params = { activeCss: { color: 'Black' }, waterCss: {color: 'Gray'}};
 
   the defaults are:
 
-      'waterCss': { color: 'Gray' },
-      'activeCss':  { color: 'Black' }
+	'waterCss': { color: 'Gray' },
+	'activeCss':  { color: 'Black' }
 
 - from within your code call to the watermark() function on your selector (in this case i sue input fields):
 
-      $("input").water(params);
-      
+	$("input").water(params);
+
 - go and have another beer.      
     
 
