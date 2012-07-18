@@ -3,6 +3,8 @@ jQuery-Watermark
 
 An extra-small ( <1k ) and easy watermark creator for inputs.
 
+A working demo is under `sample` folder.
+
 Installation
 --------------
 
@@ -25,7 +27,7 @@ The defaults are:
 	'waterCss': { color: 'Gray' },
 	'activeCss':  { color: 'Black' }
 
-From within your code call to the watermark() function on your selector (in this case i sue input fields):
+From within your code call to the `watermark()` function on your selector (in this case i sue input fields). You can pass it params or leave it blank:
 
 	$("input").water(params);
 
