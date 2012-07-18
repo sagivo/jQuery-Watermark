@@ -29,7 +29,7 @@ The defaults are:
 
 From within your code call to the `watermark()` function on your selector (in this case i sue input fields). You can pass it params or leave it blank:
 
-	$("input").water(params);
+	$("input").watermark(params);
 
 Go and have another beer.      
     

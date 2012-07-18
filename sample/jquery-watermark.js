@@ -1,5 +1,5 @@
 /*! jQuery-water v1.0 created by: Sagiv Ofek */
-$.fn.water = function (params) {
+$.fn.watermark = function (params) {
     //default values
     var settings = $.extend({
         'waterCss': { color: 'Gray' },
