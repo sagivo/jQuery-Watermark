@@ -1,0 +1,31 @@
+<html>
+<head><title>Demo slider</title></head>
+<style type="text/css">
+
+
+#slidingContainer ul li img
+{
+    float:left; margin-left:5px;
+}
+
+</style>
+
+<body>
+    <div>
+        <h1>Cool demo</h1>
+        <input type="text" data-water="enter first name" /><br />
+        <input type="text" data-water="enter last name" /><br />
+        <input type="text" data-water="enter email" /><br />
+    </div>
+    
+    <script src="jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="jquery-watermark.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var params = { activeCss: { color: 'Black' }, waterCss: {color: 'Gray'}};
+            $("input").water();
+        });
+    </script>
+</body>
+
+</html>
