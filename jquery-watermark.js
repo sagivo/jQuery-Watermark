@@ -15,7 +15,7 @@ $.fn.watermark = function (params) {
         $(this).unbind("focus").focus(function () {
             if (($(this).val() == $(this).attr("data-water")) || (jQuery.trim($(this).val()).length == 0)) {
                 $(this).val("");
-                this.style.color = "Black";
+                $(this).css(settings.activeCss);
             }
         }).blur(function () {
             if (jQuery.trim($(this).val()).length == 0) {
