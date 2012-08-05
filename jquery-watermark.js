@@ -11,12 +11,12 @@ $.fn.watermark = function (params) {
 	$(this).parents('form').submit(function()
 	{
 		$(this).find('['+settings.waterAttr+']').each(function() {
-		if (($(this).val() == $(this).attr(settings.waterAttr)) || (jQuery.trim($(this).val()).length == 0)) {
-                $(this).val("");
-                $(this).css(settings.activeCss);
+			if (($(this).val() == $(this).attr(settings.waterAttr)) || (jQuery.trim($(this).val()).length == 0)) {
+               			$(this).val("");
+                		$(this).css(settings.activeCss);
 				$(this).removeClass(settings.class);
-            }
-        });
+            		}
+        	});
 		return true;	
 	});
     //loop
