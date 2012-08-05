@@ -11,7 +11,7 @@ $.fn.watermark = function (params) {
 	$(this).parents('form').submit(function()
 	{
 		$(this).find('['+settings.waterAttr+']').each(function() {
-			if (($(this).val() == $(this).attr(settings.waterAttr)) || (jQuery.trim($(this).val()).length == 0)) {
+		if (($(this).val() == $(this).attr(settings.waterAttr)) || (jQuery.trim($(this).val()).length == 0)) {
                 $(this).val("");
                 $(this).css(settings.activeCss);
 				$(this).removeClass(settings.class);
@@ -23,7 +23,7 @@ $.fn.watermark = function (params) {
     $(this).each(function () {
         if ($(this).val().length == 0) {
             $(this).css(settings.waterCss);
-			$(this).addClass(settings.class);
+	    $(this).addClass(settings.class);
             $(this).val($(this).attr(settings.waterAttr));
         }
         $(this).unbind("focus").focus(function () {
@@ -36,7 +36,7 @@ $.fn.watermark = function (params) {
             if (jQuery.trim($(this).val()).length == 0) {
                 $(this).val($(this).attr(settings.waterAttr));
                 $(this).css(settings.waterCss);
-				$(this).addClass(settings.class);
+		$(this).addClass(settings.class);
             }
         });
     });
