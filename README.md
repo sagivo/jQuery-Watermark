@@ -20,7 +20,7 @@ Download `jquery-watermark.min.js` script and include it in your page:
 
 Define your params (if you want):
 
-	var params = { activeCss: { 'color': 'Black', 'background-color': 'Blue', 'font-size': '20px' }, waterCss: {color: 'Gray'}};
+	var params = { waterAttr: 'data-water',class: 'waterMark',activeCss: { 'color': 'Black', 'background-color': 'Blue', 'font-size': '20px' }, waterCss: {color: 'Gray'}};
 
 The defaults are:
 
