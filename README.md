@@ -39,7 +39,7 @@ Go and have another beer.
 Contribution
 ------------
 
-- Sagiv Ofek
+- Sagiv Ofek ( Patch1 - Yanislav Dimitrov )
 
 License
 -------
