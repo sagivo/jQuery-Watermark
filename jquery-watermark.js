@@ -5,7 +5,7 @@ $.fn.watermark = function (params) {
     	'waterAttr' : 'data-water',
         'waterCss': { color: 'Gray' },
         'activeCss':  { color: 'Black' },
-		'class':	'watermarked',
+	'class':	'watermarked',
     }, params);
 
 	$(this).parents('form').submit(function()
