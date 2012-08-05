@@ -25,7 +25,9 @@ Define your params (if you want):
 The defaults are:
 
 	'waterCss': { color: 'Gray' },
-	'activeCss':  { color: 'Black' }
+	'activeCss':  { color: 'Black' },
+	'waterAttr':  'data-water',
+	'activeCss': 'watermarked'
 
 From within your code call to the `watermark()` function on your selector (in this case i used input fields). 
 
