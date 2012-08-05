@@ -20,12 +20,14 @@ Download `jquery-watermark.min.js` script and include it in your page:
 
 Define your params (if you want):
 
-	var params = { activeCss: { 'color': 'Black', 'background-color': 'Blue', 'font-size': '20px' }, waterCss: {color: 'Gray'}};
+	var params = { waterAttr: 'data-water',class: 'waterMark',activeCss: { 'color': 'Black', 'background-color': 'Blue', 'font-size': '20px' }, waterCss: {color: 'Gray'}};
 
 The defaults are:
 
 	'waterCss': { color: 'Gray' },
-	'activeCss':  { color: 'Black' }
+	'activeCss':  { color: 'Black' },
+	'waterAttr':  'data-water',
+	'activeCss': 'watermarked'
 
 From within your code call to the `watermark()` function on your selector (in this case i used input fields). 
 
@@ -37,7 +39,7 @@ Go and have another beer.
 Contribution
 ------------
 
-- Sagiv Ofek
+- Sagiv Ofek ( Patch1 - Yanislav Dimitrov )
 
 License
 -------
